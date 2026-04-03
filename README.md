@@ -135,7 +135,7 @@ This project is distributed under the **MIT License**. We specifically chose thi
 **❌ Cons (What to realize):**
 - **No Forced Sharing**: If you make huge performance improvements to our implementation, you aren't legally forced to share those improvements back to this repository (though we'd love it if you did!).
 
-See the `LICENSE` file for more information.
+See the [LICENSE](LICENSE) file for more information.
 
 ---
 **Maintained by Akash** | [GitHub Profil](https://github.com/Akash)
