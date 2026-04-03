@@ -124,7 +124,18 @@ The API is available at `http://localhost:8000`.
 
 ## 📜 License
 
-Distributed under the **MIT License**. See `LICENSE` for more information.
+This project is distributed under the **MIT License**. We specifically chose this open-source license because it offers maximum freedom and minimal restrictions for the community.
+
+### Why MIT License?
+**✅ Pros (What you can do):**
+- **Maximum Freedom**: Anyone can use, copy, modify, distribute, and even sell this code. 
+- **Commercial Use Ready**: You can integrate this TinyLlama platform into your paid, closed-source SaaS products or apps without owing us anything.
+- **No Liability**: The code is provided "as is." If you break your servers running this, we are not legally responsible.
+
+**❌ Cons (What to realize):**
+- **No Forced Sharing**: If you make huge performance improvements to our implementation, you aren't legally forced to share those improvements back to this repository (though we'd love it if you did!).
+
+See the `LICENSE` file for more information.
 
 ---
 **Maintained by Akash** | [GitHub Profil](https://github.com/Akash)
