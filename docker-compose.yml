@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+  llm-api:
+    build: .
+    container_name: custom-llm-api
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./model_cache:/app/model_cache
+      - ./logs:/app/logs
+      - ./data:/app/data
+      - ./.env:/app/.env
+    environment:
+      - MODEL_NAME=${MODEL_NAME:-EleutherAI/gpt-j-6B}
+      - QUANTIZED=${QUANTIZED:-true}
+      - API_HOST=0.0.0.0
+      - API_PORT=8000
+    restart: unless-stopped
+    deploy:
+      resources:
+        limits:
+          memory: 16G
+        reservations:
+          memory: 8G

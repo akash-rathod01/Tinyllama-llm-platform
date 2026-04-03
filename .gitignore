@@ -1,0 +1,19 @@
+# Virtual Environments
+venv/
+venv_tinyllama/
+venv_64/
+venv_old_32bit/
+.venv/
+
+# Model Files (Very Large)
+model_cache/
+*.bin
+*.pt
+*.safetensors
+core_model/
+
+# Logs and Temp
+logs/
+__pycache__/
+*.log
+.env
