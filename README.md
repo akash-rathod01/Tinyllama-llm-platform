@@ -138,4 +138,4 @@ This project is distributed under the **MIT License**. We specifically chose thi
 See the [LICENSE](LICENSE) file for more information.
 
 ---
-**Maintained by Akash** | [GitHub Profil](https://github.com/Akash)
+**Maintained by Akash Rathod ** |https://github.com/akash-rathod01
